@@ -1,0 +1,25 @@
+#content form
+{
+  padding-left:300px;;
+} 
+  #content form input
+{
+  width:56%;
+  height:30px; 
+  border-radius:10px; 
+  font-size:20px;
+}
+#content form textarea
+{
+  width:56%;
+  height:70px;
+  border-radius:10px;
+  font-size:20px;
+}
+#content form select
+{
+  width:56%;
+  height:30px; 
+  border-radius:10px; 
+  font-size:20px;
+}
