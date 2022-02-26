@@ -37,6 +37,8 @@
 <body>
 <link rel="stylesheet" type="text/css" href="code.css">
 <link rel="stylesheet" type="text/css" href="form.css">
+<script src="login.js"></script>
+
 <div id="drop">
 <ul>
  <li><a href="index.html"><div>HOME</div></a></li>
@@ -62,10 +64,10 @@
 <div id="content">
    <form>
 
-    <input type="email" maxlength="30" placeholder="E-mail" required> <br><br>
-    <input type="password" placeholder="Password" minlength="8" maxlength="10" required> <br><br>
+    <input type="email" name="username" maxlength="30" placeholder="E-mail" id="username" required> <br><br>
+    <input type="password" name="password" placeholder="Password" minlength="8" maxlength="10" id="password" required> <br><br>
     
-<input type="submit" value="Log in" style="background-color:#197FBD"><br><br>
+<input type="submit" value="Log in" style="background-color:#197FBD" onclick="validate()"><br><br>
 <input type="submit" value="Cancel" style="background-color:#197FBD"><br><br>  
                     <a href="mailto:kanikasharma71@ymail.com" OnClick="check();">Forgot Password ?</a>
   </form>
